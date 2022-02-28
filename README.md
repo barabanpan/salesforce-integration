@@ -6,7 +6,9 @@
 
 # Technology used
  - Python 3.9 
- - simple-salesforce library 
+ - simple-salesforce library for salesforce
+ - boto3 library for aws s3
+
 # Structure
 
 
