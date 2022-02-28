@@ -6,4 +6,7 @@ load_dotenv(os.path.join(project_root, '.env'))
 
 
 class Config(object):
-    pass
+    username = os.getenv("SALESFORCE_USERNAME")
+    password = os.getenv("SALESFORCE_PASSWORD")
+    security_token = os.getenv("SALESFORCE_SECURITY_TOKEN")
+
