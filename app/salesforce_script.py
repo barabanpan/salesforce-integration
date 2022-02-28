@@ -47,6 +47,3 @@ def download_as_csv(to_s3=False):
         df.to_csv("app/downloads/contacts.csv", index=False)
         print("Downloaded Contacts to 'app/downloads' folder successfully")
 
-
-# create_users()
-

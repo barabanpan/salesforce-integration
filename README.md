@@ -17,6 +17,6 @@
 1. Create .env file by the .env.example example
 2. pip install -r requirements.txt
 3. From root:
-``python -i run.py```
-``download_as_csv(to_s3=True)```
+```python run.py to_s3``` to save contacts.csv to s3 OR<br>
+```python run.py``` to save contacts.csv locally
 
