@@ -1,4 +1,4 @@
-# Salesforse integration with Flask
+# Salesforse integration
 
 # Used urls
 1. https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/quickstart.htm
@@ -6,11 +6,12 @@
 
 
 # Structure
-GET /  - index page
+
 
 
 # How to run it
 1. pip install -r requirements.txt
 2. From root:
-```gunicorn "run:create_app()"```
-3. Open openapi docs: https://127.0.0.1:5000/swagger to test the API
+``python -i run.py```
+``download_as_csv(to_s3=True)```
+
