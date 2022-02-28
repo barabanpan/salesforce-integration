@@ -13,7 +13,6 @@ jmespath==0.10.0
 lxml==4.8.0
 numpy==1.22.2
 pandas==1.4.1
-pkg_resources==0.0.0
 platformdirs==2.5.1
 pycparser==2.21
 python-dateutil==2.8.2
